@@ -1,5 +1,5 @@
 ARG BUILD_FROM
-FROM linuxserver/firefox:version-131.0.3-r1-ls246
+FROM linuxserver/firefox:version-1147.0.4build1-1xtradeb1.2404.1
 
 ENV PUID=0
 ENV PGID=0
