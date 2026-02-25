@@ -1,0 +1,29 @@
+name: "Firefox"
+version: "0.1.0"
+slug: "firefox"
+panel_icon: "mdi:firefox"
+description: "Firefox browser via linuxserver.io"
+url: "https://github.com/linuxserver/docker-firefox"
+arch:
+  - amd64
+  - aarch64
+init: false
+ingress: true
+ingress_port: 3000
+ports:
+  3000/tcp: null
+  3001/tcp: null
+map:
+  - share:rw
+audio: true
+legacy: true
+options:
+  DISPLAY_WIDTH: "1920"
+  DISPLAY_HEIGHT: "1080"
+  TZ: "Etc/UTC"
+  LANG: "en_US.UTF-8"
+schema:
+  DISPLAY_WIDTH: str
+  DISPLAY_HEIGHT: str
+  TZ: str
+  LANG: str

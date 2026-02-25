@@ -1,0 +1,8 @@
+ARG BUILD_FROM
+FROM linuxserver/firefox:version-131.0.3-r1-ls246
+
+ENV PUID=0
+ENV PGID=0
+ENV CUSTOM_HTTP_PORT=3000
+
+COPY rootfs/ /

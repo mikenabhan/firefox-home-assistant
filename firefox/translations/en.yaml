@@ -1,0 +1,13 @@
+configuration:
+  DISPLAY_WIDTH:
+    name: Display Width
+    description: Width of the virtual display in pixels.
+  DISPLAY_HEIGHT:
+    name: Display Height
+    description: Height of the virtual display in pixels.
+  TZ:
+    name: Timezone
+    description: Container timezone (e.g. America/New_York).
+  LANG:
+    name: Language
+    description: Locale setting (e.g. en_US.UTF-8).
